@@ -31,6 +31,7 @@ struct HomeView: View {
             }
             .scrollContentBackground(.hidden)
             
+            
             List {
                 Text("\(Image(systemName: "eurosign")) Currencies").font(.title).bold().foregroundColor(Color(red: 0.3176470588235294, green: 0.8, blue: 0.6941176470588235))
                 ForEach(0...5, id: \.self) { number in

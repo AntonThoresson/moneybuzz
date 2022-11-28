@@ -11,6 +11,7 @@ struct NewsView: View {
     @ObservedObject var viewModel = NewsDataViewModel()
     @State private var showSheet = false
     @State var selectedModel = SheetModel(title: "", description: "")
+    
     init() {
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.init(Color(#colorLiteral(red: 0.3176470588, green: 0.8, blue: 0.6948974729, alpha: 1)))]
     }
@@ -66,22 +67,6 @@ struct NewsView: View {
     
     
 }
-
-/*struct SheetModel {
-    let title: String
-    let description: String
-}
-
-struct testSheetView: View {
-    @Binding var selectedTitle: SheetModel
-    var body: some View {
-            Text(selectedTitle.title)
-                .font(.largeTitle)
-                .padding()
-            Text(selectedTitle.description)
-                .padding(.horizontal, 12.0)
-    }
-}*/
 
 struct NewsView_Previews: PreviewProvider {
     static var previews: some View {

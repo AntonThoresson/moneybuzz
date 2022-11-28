@@ -13,6 +13,7 @@
 		15FAFE3729313240008C4670 /* StockSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FAFE3629313240008C4670 /* StockSearchViewModel.swift */; };
 		15FAFE392931326C008C4670 /* StockSearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FAFE382931326C008C4670 /* StockSearchData.swift */; };
 		15FAFE3B293132A4008C4670 /* StockSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FAFE3A293132A4008C4670 /* StockSearchService.swift */; };
+		7884643529351A8700A33108 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7884643429351A8700A33108 /* SheetView.swift */; };
 		78ACCF28292BE11B00528FDE /* MoneyBuzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ACCF27292BE11B00528FDE /* MoneyBuzzApp.swift */; };
 		78ACCF2A292BE11B00528FDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ACCF29292BE11B00528FDE /* ContentView.swift */; };
 		78ACCF2C292BE11D00528FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ACCF2B292BE11D00528FDE /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		15FAFE3629313240008C4670 /* StockSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearchViewModel.swift; sourceTree = "<group>"; };
 		15FAFE382931326C008C4670 /* StockSearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearchData.swift; sourceTree = "<group>"; };
 		15FAFE3A293132A4008C4670 /* StockSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearchService.swift; sourceTree = "<group>"; };
+		7884643429351A8700A33108 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		78ACCF24292BE11B00528FDE /* MoneyBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78ACCF27292BE11B00528FDE /* MoneyBuzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBuzzApp.swift; sourceTree = "<group>"; };
 		78ACCF29292BE11B00528FDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				157C5725292D210100E0957A /* HomeView.swift */,
 				154A0D4D292E5EC5000EA6F9 /* WatchlistView.swift */,
 				78EDD50C292FB1E8005B56A2 /* NewsView.swift */,
+				7884643429351A8700A33108 /* SheetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				154A0D4E292E5EC5000EA6F9 /* WatchlistView.swift in Sources */,
 				15FAFE3B293132A4008C4670 /* StockSearchService.swift in Sources */,
 				78ACCF5B292BE91100528FDE /* DataService.swift in Sources */,
+				7884643529351A8700A33108 /* SheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
